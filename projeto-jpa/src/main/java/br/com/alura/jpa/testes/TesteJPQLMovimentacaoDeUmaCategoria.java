@@ -11,7 +11,7 @@ import br.com.alura.jpa.modelo.Categoria;
 import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 
-public class TesteJPQLMovimentaçãoDeUmaCategoria {
+public class TesteJPQLMovimentacaoDeUmaCategoria {
 	
 	public static void main(String[] args) {
 		
@@ -28,7 +28,7 @@ public class TesteJPQLMovimentaçãoDeUmaCategoria {
 				
 		List<Movimentacao> resultList = query.getResultList();		
 		for (Movimentacao movimentacao : resultList) {
-			System.out.println("Descrição: " + movimentacao.getDescricao());
+			System.out.println("DescriÃ§Ã£o: " + movimentacao.getDescricao());
 			System.out.println("Tipo: " + movimentacao.getTipoMovimentacao());
 		}
 		
