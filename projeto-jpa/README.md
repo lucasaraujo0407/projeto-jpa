@@ -11,39 +11,39 @@ Projeto desenvolvido com base nos cursos da Alura [Java e JPA: Persista seus obj
 
 ## Desenvolvimento
 
-Para efetuar o desenvolvimento e alterações no projeto, é preciso inicialmente clonar o repositório do projeto:
+Para efetuar o desenvolvimento e alteraÃ§Ãµes no projeto, Ã© preciso inicialmente clonar o repositÃ³rio do projeto:
 
-- link do projeto salvo posteriormente no GitHub
+- https://github.com/lucasaraujo0407/projeto-jpa/tree/master/projeto-jpa
 
-## Construção
+## ConstruÃ§Ã£o
 
-Efetuar via Terminal ou Eclipse a execução do comando de construção e compilação do projeto via Maven:
+Efetuar via Terminal ou Eclipse a execuÃ§Ã£o do comando de construÃ§Ã£o e compilaÃ§Ã£o do projeto via Maven:
 
 ```shell
 mvn clean install
 ```
 
-O comando irá baixar todas as dependências do projeto e criar um diretório target com os artefatos construídos, que incluem o arquivo jar do projeto. 
+O comando irÃ¡ baixar todas as dependÃªncias do projeto e criar um diretÃ³rio target com os artefatos construÃ­dos, que incluem o arquivo jar do projeto. 
 
-## Deploy e publicação
+## Deploy e publicaÃ§Ã£o
 
-Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. Não necessita de deploy e publicação, sendo executado como uma simples aplicação Java.
+Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. NÃ£o necessita de deploy e publicaÃ§Ã£o, sendo executado como uma simples aplicaÃ§Ã£o Java.
 
 ## Features
 
-O projeto é focado em demonstrar como a JPA trabalha para efetuar manipulações de dados de diferentes maneiras em conjunto com o Hibernate. Adicionalmente, são demonstrados testes com queries em JPQL e Criteria API.
+O projeto Ã© focado em demonstrar como a JPA trabalha para efetuar manipulaÃ§Ãµes de dados de diferentes maneiras em conjunto com o Hibernate. Adicionalmente, sÃ£o demonstrados testes com queries em JPQL e Criteria API.
 
-**Tópicos abordados segundo definições dos cursos da Alura:**
+**TÃ³picos abordados segundo definiÃ§Ãµes dos cursos da Alura:**
 
 - Entenda as dificuldades do uso do JDBC puro
-- Abuse da persistência orientada a objetos
-- Conheça e aprenda a trabalhar com todos os estados de uma entidade
+- Abuse da persistÃªncia orientada a objetos
+- ConheÃ§a e aprenda a trabalhar com todos os estados de uma entidade
 - Fique fera em Lazy Loading e relacionamentos bidirecionais
 - Organize suas queries como um profissional
 - Aprenda a usar relacionamento bidirecionais
 - Organize suas consultas com Data Access Object
-- Saiba o que é Lazy Loading e queries N+1
-- Use funções de agregação e projeções
-- Escreva queries dinâmicas com a Criteria API
+- Saiba o que Ã© Lazy Loading e queries N+1
+- Use funÃ§Ãµes de agregaÃ§Ã£o e projeÃ§Ãµes
+- Escreva queries dinÃ¢micas com a Criteria API
 
 
