@@ -13,7 +13,7 @@ Projeto desenvolvido com base nos cursos da Alura [Java e JPA: Persista seus obj
 
 Para efetuar o desenvolvimento e alterações no projeto, é preciso inicialmente clonar o repositório do projeto:
 
-- https://github.com/lucasaraujo0407/projeto-jpa/tree/master/projeto-jpa
+- [Github do projeto](https://github.com/lucasaraujo0407/projeto-jpa/tree/master/projeto-jpa)
 
 ## Construção
 
@@ -27,7 +27,7 @@ O comando irá baixar todas as dependências do projeto e criar um diretório ta
 
 ## Deploy e publicação
 
-Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. Não necessita de deploy e publicação, sendo executado como uma simples aplicação Java.
+Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. Não necessita de deploy e publicação, sendo executado como uma simples aplicação Java Spring Boot.
 
 ## Features
 
