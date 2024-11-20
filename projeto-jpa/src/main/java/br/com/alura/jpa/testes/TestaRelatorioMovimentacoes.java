@@ -9,13 +9,17 @@ import javax.persistence.TypedQuery;
 
 import br.com.alura.jpa.modelo.Conta;
 
+/**
+ * Criação de relatório de movimentações por conta, utilizando de ajustes de lazy loading na classe modelo
+ */
+
 public class TestaRelatorioMovimentacoes {
 	public static void main(String[] args) {
 		
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("contas");
 		EntityManager em = emf.createEntityManager();
 		
-		String jpql = "select c from Conta c left join fetch c.movimentacoes";
+		String jpql = "select distinct c from Conta c left join fetch c.movimentacoes";
 		TypedQuery<Conta> query = em.createQuery(jpql, Conta.class);
 		
 		List<Conta> contas = query.getResultList();

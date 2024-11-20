@@ -7,6 +7,10 @@ import javax.persistence.Persistence;
 import br.com.alura.jpa.modelo.Cliente;
 import br.com.alura.jpa.modelo.Conta;
 
+/**
+ * Teste de criação de cliente e seu relacionamento com a conta
+ */
+
 public class TestaRelacionamentoClienteConta {
 	
 	public static void main(String[] args) {

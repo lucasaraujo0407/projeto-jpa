@@ -9,6 +9,10 @@ import javax.persistence.Persistence;
 import br.com.alura.jpa.modelo.Movimentacao;
 import br.com.alura.jpa.modelo.dao.MovimentacaoDao;
 
+/**
+ * Movimentações filtradas por data usando Criteria dentro do MovimentacaoDao
+ */
+
 public class TestaMovimentacoesFiltradasPorDataCriteria {
 	public static void main(String[] args) {
 	

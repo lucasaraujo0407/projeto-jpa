@@ -4,7 +4,7 @@ Projeto desenvolvido com base nos cursos da Alura [Java e JPA: Persista seus obj
 
 ## Requisitos para desenvolvimento:
 
-- Eclipse IDE;
+- Eclipse IDE / IntelliJ IDE;
 - Java 8;
 - Maven;
 - Banco de Dados MySQL ou MariaDB.
@@ -27,7 +27,7 @@ O comando irá baixar todas as dependências do projeto e criar um diretório ta
 
 ## Deploy e publicação
 
-Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. Não necessita de deploy e publicação, sendo executado como uma simples aplicação Java Spring Boot.
+Projeto Java em Maven baseado em testes de funcionalidades JPA/Hibernate. Não necessita de deploy e publicação, sendo executado como uma simples aplicação Java.
 
 ## Features
 
@@ -47,3 +47,19 @@ O projeto é focado em demonstrar como a JPA trabalha para efetuar manipulaçõe
 - Escreva queries dinâmicas com a Criteria API
 
 
+## Ordem de execução de classes para entendimento do projeto
+
+- TesteCriaTabelas.java
+- CriaConta.java
+- CriaContaComSaldo.java
+- AlteraSaldoConta.java
+- TestandoEstados.java
+- TestaRelacionamento.java
+- TestaRelacionamentoMovimentacaoCategoria.java
+- TestaRelacionamentoClienteConta.java
+- TesteJPQL.java
+- TesteJPQLMovimentacaoDeUmaCategoria.java
+- TestaMovimentacaoConta.java
+- TestaSomaDasMovimentacoes.java
+- TesteMediaDiariaMovimentacoes.java
+- TestaMovimentacoesFiltradasPorDataCriteria.java

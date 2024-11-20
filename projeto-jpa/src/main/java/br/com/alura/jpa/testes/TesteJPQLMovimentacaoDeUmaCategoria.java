@@ -11,6 +11,10 @@ import br.com.alura.jpa.modelo.Categoria;
 import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 
+/**
+ * Criação de query com Join das classes Movimentacao e Categoria via JPQL
+ */
+
 public class TesteJPQLMovimentacaoDeUmaCategoria {
 	
 	public static void main(String[] args) {

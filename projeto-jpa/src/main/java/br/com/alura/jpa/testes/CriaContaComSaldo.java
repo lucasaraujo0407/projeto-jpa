@@ -6,8 +6,13 @@ import javax.persistence.Persistence;
 
 import br.com.alura.jpa.modelo.Conta;
 
+/**
+ * Criação simples de uma conta via EntityManager com saldo, além de setar um novo saldo por outro EntityManager
+ * testando a movimentação entre os status Managed e Detached
+ */
+
 public class CriaContaComSaldo {
-	
+
 	public static void main(String[] args) {
 		EntityManagerFactory emf = Persistence.createEntityManagerFactory("contas");
 		EntityManager em = emf.createEntityManager();

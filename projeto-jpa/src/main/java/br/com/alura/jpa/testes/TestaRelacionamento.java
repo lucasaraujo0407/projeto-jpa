@@ -11,6 +11,11 @@ import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 import br.com.alura.jpa.modelo.TipoMovimentacao;
 
+/**
+ * Criação de uma conta via EntityManager, de uma movimentação desta mesma conta e o fluxo correto de persistência
+ * dos dados no BD
+ */
+
 public class TestaRelacionamento {
 	public static void main(String[] args) {
 		Conta conta = new Conta();

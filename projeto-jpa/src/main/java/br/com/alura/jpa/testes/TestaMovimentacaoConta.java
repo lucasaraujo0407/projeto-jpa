@@ -7,6 +7,10 @@ import javax.persistence.Persistence;
 import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 
+/**
+ * Criação de busca da quantidade de movimentações por conta
+ */
+
 public class TestaMovimentacaoConta {
 	public static void main(String[] args) {
 		
@@ -19,8 +23,6 @@ public class TestaMovimentacaoConta {
 		
 		System.out.println("Quantidade de movimentacoes: " + quantidadeMovimentacoes);
 		System.out.println("Titular da conta: " + conta.getTitular());
-		
-		
 		
 	}
 }

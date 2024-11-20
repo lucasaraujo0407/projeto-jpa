@@ -13,6 +13,10 @@ import javax.persistence.criteria.Root;
 
 import br.com.alura.jpa.modelo.Movimentacao;
 
+/**
+ * Criação de query de soma dos valores na tabela movimentação por meio de CriteriaQuery
+ */
+
 public class TestaSomaDasMovimentacoes {
 
 	public static void main(String[] args) {

@@ -53,7 +53,7 @@ public class MovimentacaoDao {
 
 	public List<MediaComData> getMediaDiariaMovimentacoes(){
 			
-		String jpql = "select new br.com.alura.jpa.modelo.MediaComData(avg(m.valor), day(m.data), month(m.data)) from Movimentacao m group by day(m.data), month(m.data), year(m.data)";
+		String jpql = "select new br.com.alura.jpa.modelo.MediaComData(avg(m.valor), day(m.data), month(m.data), year(m.data)) from Movimentacao m group by day(m.data), month(m.data), year(m.data)";
 		
 		TypedQuery<MediaComData> query = em.createQuery(jpql, MediaComData.class);
 		return query.getResultList();		

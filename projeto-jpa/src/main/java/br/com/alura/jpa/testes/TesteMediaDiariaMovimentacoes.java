@@ -9,6 +9,10 @@ import javax.persistence.Persistence;
 import br.com.alura.jpa.modelo.MediaComData;
 import br.com.alura.jpa.modelo.dao.MovimentacaoDao;
 
+/**
+ * Teste de soma diária das movimentações, já utilizando o MovimentacaoDao
+ */
+
 public class TesteMediaDiariaMovimentacoes {
 	
 	public static void main(String[] args) {
@@ -19,7 +23,7 @@ public class TesteMediaDiariaMovimentacoes {
 		List<MediaComData> mediaMovimentacoes = new MovimentacaoDao(em).getMediaDiariaMovimentacoes();
 		
 		for (MediaComData resultado : mediaMovimentacoes) {
-			System.out.println("Média do dia " + resultado.getDia() + "/" + resultado.getMes() + ": " + resultado.getValor());
+			System.out.println("Média do dia " + resultado.getDia() + "/" + resultado.getMes() + "/" + resultado.getAno() + ": " + resultado.getValor());
 		}			
 	}
 }

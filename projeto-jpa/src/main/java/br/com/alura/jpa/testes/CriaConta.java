@@ -6,6 +6,10 @@ import javax.persistence.Persistence;
 
 import br.com.alura.jpa.modelo.Conta;
 
+/**
+ * Criação simples de uma conta via EntityManager, ainda sem saldo
+ */
+
 public class CriaConta {
 
 	public static void main(String[] args) {

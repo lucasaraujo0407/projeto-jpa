@@ -13,6 +13,11 @@ import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 import br.com.alura.jpa.modelo.TipoMovimentacao;
 
+/**
+ * Teste de criação de categorias e seu relacionamento com as movimentações, possibilitada pelo Hibernate/JPA na criação
+ * da tabela de relacionamento
+ */
+
 public class TestaRelacionamentoMovimentacaoCategoria {
 	
 	public static void main(String[] args) {
@@ -20,9 +25,9 @@ public class TestaRelacionamentoMovimentacaoCategoria {
 		Categoria categoria1 = new Categoria("Viagem");			
 		Categoria categoria2 = new Categoria("Negócios");
 		
-		//Indica que a conta usada para o teste será a de ID 2 no BD
+		//Indica que a conta usada para o teste será a de ID 1 no BD
 		Conta conta = new Conta();
-		conta.setId(2L);
+		conta.setId(1L);
 		
 		Movimentacao movimentacao = new Movimentacao();
 		movimentacao.setDescricao("Viagem à SP");

@@ -11,6 +11,10 @@ import javax.persistence.TypedQuery;
 import br.com.alura.jpa.modelo.Conta;
 import br.com.alura.jpa.modelo.Movimentacao;
 
+/**
+ * Criação de query simples usando JPQL para buscar registros na tabela de movimentação por meio do id da conta
+ */
+
 public class TesteJPQL {
 
 	public static void main(String[] args) {
@@ -21,7 +25,7 @@ public class TesteJPQL {
 		String jpql = "select m from Movimentacao m where m.conta = :pConta order by m.valor desc";
 		
 		Conta conta = new Conta();
-		conta.setId(2L);
+		conta.setId(1L);
 		
 		TypedQuery<Movimentacao> query = em.createQuery(jpql, Movimentacao.class);
 		query.setParameter("pConta", conta);
